@@ -16,3 +16,12 @@ public class CheckResults {
         System.out.println("Reached!");
     }
 }
+
+/*
+
+Two threads are started. When the main thread sleeps for one second, the other thread
+finishes loop. 
+
+Thead.sleep() helped prevent a potential infinite loop in the main thread.
+
+*/
